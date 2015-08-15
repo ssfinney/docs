@@ -89,7 +89,7 @@ For more information on middleware, check out the [middleware documentation](/do
 
 ### Testing Overhaul
 
-The built-in testing capabilities of Laravel have been dramatically improved. A variety of new methods provide a fluent, expressive interface for interacting with your application and examining its responses. For example, check out the following test:
+The built-in testing capabilities of Laravel have been dramatically improved. A variety of new methods provides a fluent, expressive interface for interacting with your application and examining its responses. For example, check out the following test:
 
     public function testNewUserRegistration()
     {
