@@ -179,7 +179,7 @@ You may also specify more advanced join clauses. To get started, pass a `Closure
             })
             ->get();
 
-If you would like to use a "where" style clause on your joins, you may use the `where` and `orWhere` methods on a join. Instead of comparing two columns, these methods will compare the column against a value:
+If you would like to use a "where" style clause on your join statements, you may use the `where` and `orWhere` methods. Instead of comparing two columns, these methods will compare the column against a value:
 
     DB::table('users')
             ->join('contacts', function ($join) {
